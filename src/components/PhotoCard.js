@@ -1,3 +1,9 @@
-import React, {useEffect} from "react";
+import React from "react";
 
-const [photos, setPhotoState] = useState();
+export default function Apod() {
+    return (
+        <div className="Apod">
+            <img src="${`picture`}">
+        </div>
+    );
+}
